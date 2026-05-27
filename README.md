@@ -71,6 +71,20 @@ This structure allows multidimensional analysis across products, geography, time
 
 ---
 
+## SQL Methods Used
+
+SQL was primarily used to explore and validate the underlying transactional data before analysis through the SSAS cube.
+
+### Methods
+- Complex Joins (INNER JOIN, self joins for bundle analysis)
+- Aggregations and Profitability Calculations (SUM, AVG, GROUP BY)
+- Revenue, Cost, and Profit Margin calculations
+- Product Bundling Analysis using self joins and transaction pairing
+- Regional and Seasonal Trend Analysis
+- Ranking and sorting high- and low-performing products
+
+---
+
 ## ETL Pipeline (SSIS)
 
 The ETL process extracted data from the AdventureWorks OLTP database and transformed it into a clean analytical warehouse.
@@ -93,19 +107,6 @@ The pipeline processed over:
 * 500+ products
 * Multiple geographic and channel dimensions
   
----
-### SQL Methods Used
-
-SQL was primarily used to explore and validate the underlying transactional data before analysis through the SSAS cube.
-
-#### Methods
-- Complex Joins (INNER JOIN, self joins for bundle analysis)
-- Aggregations and Profitability Calculations (SUM, AVG, GROUP BY)
-- Revenue, Cost, and Profit Margin calculations
-- Product Bundling Analysis using self joins and transaction pairing
-- Regional and Seasonal Trend Analysis
-- Ranking and sorting high- and low-performing products
-
 ---
 
 ## OLAP Cube & Analysis (SSAS)
