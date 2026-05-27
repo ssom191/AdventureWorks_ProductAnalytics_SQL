@@ -58,14 +58,14 @@ The project approaches AdventureWorks’ sales data from multiple analytical per
 The project follows a Star Schema architecture centered around the FactSales table.
 
 ### Fact Table
-- FactSales
+- `FactSales`
 
 ### Dimension Tables
-- DimProduct
-- DimDate
-- DimSalesChannel
-- DimSalesTerritory
-- DimDiscount
+- `DimProduct`
+- `DimDate`
+- `DimSalesChannel`
+- `DimSalesTerritory`
+- `DimDiscount`
 
 This structure allows multidimensional analysis across products, geography, time, and sales channels while supporting efficient OLAP querying.
 
@@ -76,7 +76,7 @@ This structure allows multidimensional analysis across products, geography, time
 SQL was primarily used to explore and validate the underlying transactional data before analysis through the SSAS cube.
 
 ### Methods
-- Complex Joins (INNER JOIN, self joins for bundle analysis)
+- Complex Joins (`INNER JOIN`, self joins for bundle analysis)
 - Aggregations and Profitability Calculations (SUM, AVG, GROUP BY)
 - Revenue, Cost, and Profit Margin calculations
 - Product Bundling Analysis using self joins and transaction pairing
