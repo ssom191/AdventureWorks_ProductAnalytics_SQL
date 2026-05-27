@@ -162,4 +162,4 @@ It was also a practical introduction to how Business Intelligence systems are de
 ---
 
 ## Disclaimer❗️
-This project was developed as part of academic coursework and is shared here for educational and profolio purpose. Unauthorised use, reproduction or distribution is not permitted and may violate academic integrity policies.
+This project was developed as part of academic coursework and is shared here for educational and portfolio purposes. Unauthorised use, reproduction or distribution is not permitted and may violate academic integrity policies.
