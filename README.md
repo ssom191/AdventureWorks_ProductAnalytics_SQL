@@ -159,5 +159,6 @@ The project combines technical implementation with analytical storytelling, tran
 It was also a practical introduction to how Business Intelligence systems are designed in real organisational settings.
 
 ---
-##❗️Disclaimer
+
+## Disclaimer❗️
 This project was developed as part of academic coursework and is shared here for educational and profolio purpose. Unauthorised use, reproduction or distribution is not permitted and may violate academic integrity policies.
