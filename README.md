@@ -95,27 +95,31 @@ The pipeline processed over:
   
 ---
 ### SQL Methods Used
+
+SQL was primarily used to explore and validate the underlying transactional data before analysis through the SSAS cube.
+
+#### Methods
 - Complex Joins (INNER JOIN, self joins for bundle analysis)
 - Aggregations and Profitability Calculations (SUM, AVG, GROUP BY)
-- Conditional Logic using CASE WHEN for Online vs In-Store analysis
 - Revenue, Cost, and Profit Margin calculations
 - Product Bundling Analysis using self joins and transaction pairing
 - Regional and Seasonal Trend Analysis
 - Ranking and sorting high- and low-performing products
-- Multidimensional sales analysis across products, territories, and sales channels
 
 ---
 
 ## OLAP Cube & Analysis (SSAS)
 
-An SSAS cube was created to support dynamic business analysis using:
+An SSAS cube was created to support multidimensional business analysis using:
 
 - Product hierarchies
 - Time hierarchies
 - Geographic drill-downs
 - Sales channel comparisons
 
-The OLAP cube included measures such as Sales Revenue, Profit Amount, Profit Margin, Discount Impact, Sales Quantity, and Cost Amount, enabling multidimensional analysis through Excel PivotTables and interactive cube browsing.
+The OLAP cube included measures such as Sales Revenue, Profit Amount, Profit Margin, Discount Impact, Sales Quantity, and Cost Amount, enabling interactive analysis through Excel PivotTables and cube browsing.
+
+The majority of the business analysis and reporting was performed through the SSAS cube using the “Analyse in Excel” feature.
 
 ---
 
@@ -153,13 +157,5 @@ What interested me most about this project was not just building the warehouse i
 The project combines technical implementation with analytical storytelling, transforming raw transactional data into insights that can support pricing, promotions, inventory planning, and customer strategy.
 
 It was also a practical introduction to how Business Intelligence systems are designed in real organisational settings.
-
----
-
-## Files Included
-
-* SQL queries used for analytical exploration
-* Final project report
-* Excel PivotTable analysis and visualizations
 
 ---
