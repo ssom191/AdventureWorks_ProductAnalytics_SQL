@@ -12,21 +12,21 @@ Using SQL Server, SSIS, SSAS, and Excel-based cube analysis, the project transfo
 
 The project approaches AdventureWorks’ sales data from multiple analytical perspectives to understand product performance, profitability, and customer purchasing behaviour across online and in-store channels.
 
-1. Product Popularity & Sales Analysis
+**1. Product Popularity & Sales Analysis**
   * Analysed product sales quantity across categories, regions, and sales channels
   * Identified the most and least popular products based on sales volume
   * Explored how product popularity impacts revenue and cost
-2. Profitability Analysis
+**2. Profitability Analysis**
   * Evaluated product-level profitability using revenue, cost, and profit margin calculations
   * Compared online and in-store profitability trends
   * Identified high-margin and underperforming product categories
-3. Regional & Seasonal Trend Analysis
+**3. Regional & Seasonal Trend Analysis**
   * Examined sales and profit performance across territories and countries
   * Analysed quarterly and yearly sales trends to identify seasonality patterns
-4. Product Bundling & Purchasing Behaviour
+**4. Product Bundling & Purchasing Behaviour**
   * Investigated products and categories frequently purchased together using SQL self-joins
   * Explored cross-selling and bundling opportunities to support marketing strategy
-5. OLAP Cube Exploration
+**5. OLAP Cube Exploration**
   * Built and explored an SSAS cube using Excel PivotTables
   * Enabled multidimensional analysis across products, territories, dates, discounts, and sales channels
 
